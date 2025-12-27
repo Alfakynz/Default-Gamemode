@@ -1,6 +1,6 @@
 # 🔄 Default Gamemode 🎮
 
-This mod let you change the default world gamemode (survival, hardcore, creative, debug)
+This mod let you change the default world gamemode (survival, hardcore, creative, spectator)
 
 [![fabric](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_64h.png)](https://fabricmc.net/)
 [![quilt](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/quilt_64h.png)](https://quiltmc.org/)
@@ -13,8 +13,8 @@ This mod let you change the default world gamemode (survival, hardcore, creative
 ## ✨ Features
 
 - Changes the default gamemode when creating a new world
-- Supports all gamemodes: Survival, Hardcore, Creative, and Debug
-- ~~Includes settings to configure which gamemode to set as default (with [ModMenu](https://modrinth.com/mod/mOgUt4GM) and [Cloth Config API](https://modrinth.com/mod/9s6osm5g))~~
+- Supports all gamemodes: Survival, Hardcore, Creative, and Spectator
+- Includes settings to configure which gamemode to set as default ~~(with [ModMenu](https://modrinth.com/mod/mOgUt4GM) and [Cloth Config API](https://modrinth.com/mod/9s6osm5g))~~
 
 ## 🔄 Versions
 
@@ -40,7 +40,7 @@ If you have any questions, feel free to join the [Discord server](https://discor
 
 ## 🚀 Planned Features
 
-- Config file to choose which gamemode to set as default
+- Integration with Mod Menu for in-game configuration
 - Compatibility with [Modern World Creation](https://github.com/Keksuccino/ModernWorldCreation)
 
 ## 📦 Modpack

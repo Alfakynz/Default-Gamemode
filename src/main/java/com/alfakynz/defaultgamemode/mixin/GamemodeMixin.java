@@ -1,5 +1,6 @@
 package com.alfakynz.defaultgamemode.mixin;
 
+import com.alfakynz.defaultgamemode.config.DefaultGamemodeConfig;
 import net.minecraft.client.gui.screens.worldselection.CreateWorldScreen;
 import net.minecraft.client.gui.screens.worldselection.WorldCreationUiState;
 import org.spongepowered.asm.mixin.Final;
@@ -18,6 +19,10 @@ public abstract class GamemodeMixin {
 
 	@Inject(method = "init", at = @At("TAIL"))
 	private void setDefaultGamemodeCreative(CallbackInfo ci) {
-		this.uiState.setGameMode(WorldCreationUiState.SelectedGameMode.CREATIVE);
+		this.uiState.setGameMode(
+				WorldCreationUiState.SelectedGameMode.valueOf(
+						DefaultGamemodeConfig.GAMEMODE.name()
+				)
+		);
 	}
 }
