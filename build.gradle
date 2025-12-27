@@ -10,10 +10,20 @@ base {
 	archivesName = project.archives_base_name
 }
 
+repositories {
+	maven { url "https://maven.shedaniel.me/" }
+	maven { url "https://maven.terraformersmc.com/" }
+}
+
 dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings loom.officialMojangMappings()
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+
+	// Dependencies
+	modCompileOnly("me.shedaniel.cloth:cloth-config-fabric:${clothconfig_version}")
+	modRuntimeOnly("me.shedaniel.cloth:cloth-config-fabric:${clothconfig_version}")
+	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 }
 
 processResources {

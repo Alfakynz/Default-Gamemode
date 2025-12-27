@@ -2,14 +2,16 @@ package com.alfakynz.defaultgamemode.config;
 
 import net.minecraft.client.gui.screens.worldselection.WorldCreationUiState.SelectedGameMode;
 
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
 import static com.alfakynz.defaultgamemode.DefaultGamemode.LOGGER;
 
-public class DefaultGamemodeConfig {
+public class Config {
 
     private static final Path CONFIG_PATH = Path.of("config", "default-gamemode.txt");
 
@@ -41,6 +43,23 @@ public class DefaultGamemodeConfig {
             }
         } catch (IOException e) {
             LOGGER.error("Failed to load Default Gamemode configuration.", e);
+        }
+    }
+
+    public static void save() {
+        try (Writer writer = new FileWriter(CONFIG_PATH.toString())) {
+            writer.write("# Choose your default gamemode for new worlds.\n");
+            writer.write("# Options: survival, creative, hardcore, spectator\n");
+            String gamemodeString;
+            switch (GAMEMODE) {
+                case SURVIVAL -> gamemodeString = "survival";
+                case HARDCORE -> gamemodeString = "hardcore";
+                case DEBUG -> gamemodeString = "spectator";
+                default -> gamemodeString = "creative";
+            }
+            writer.write("gamemode=" + gamemodeString + "\n");
+        } catch (IOException e) {
+            LOGGER.error("Failed to save Default Gamemode configuration.", e);
         }
     }
 

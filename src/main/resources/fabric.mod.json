@@ -9,15 +9,15 @@
 	],
 	"contact": {
 		"homepage": "${mod_website}",
-		"sources": "${mod_website}"
+		"sources": "${mod_website}",
+		"issues": "${mod_website}/issues"
 	},
 	"license": "${mod_license}",
 	"icon": "assets/default-gamemode/icon.png",
 	"environment": "client",
 	"entrypoints": {
-		"main": [
-          "com.alfakynz.defaultgamemode.DefaultGamemode"
-		]
+		"main": ["com.alfakynz.defaultgamemode.DefaultGamemode"],
+		"modmenu": ["com.alfakynz.defaultgamemode.config.ModMenuIntegration"]
 	},
 	"mixins": [
 		"default-gamemode.mixins.json"
@@ -25,5 +25,17 @@
 	"depends": {
 		"minecraft": ">=1.20",
 		"java": ">=17"
+	},
+	"suggests": {
+		"modmenu": "*",
+		"cloth-config": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/TcmUQHZ5U4",
+				"modmenu.wiki": "https://github.com/Alfakynz/Default-Gamemode/wiki"
+			}
+		}
 	}
 }

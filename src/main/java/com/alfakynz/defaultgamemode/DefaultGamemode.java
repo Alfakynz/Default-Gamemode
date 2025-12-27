@@ -1,7 +1,7 @@
 package com.alfakynz.defaultgamemode;
 
 
-import com.alfakynz.defaultgamemode.config.DefaultGamemodeConfig;
+import com.alfakynz.defaultgamemode.config.Config;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,6 +13,6 @@ public class DefaultGamemode implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		DefaultGamemodeConfig.load();
+		Config.load();
 	}
 }

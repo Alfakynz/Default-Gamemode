@@ -1,0 +1,12 @@
+{
+  "option.default_gamemode.config": "Opciones de Default Gamemode",
+  "option.default_gamemode.config.done": "Hecho",
+  "option.default_gamemode.config.gamemode": "Modo de juego",
+  "option.default_gamemode.config.gamemode.creative": "Creativo",
+  "option.default_gamemode.config.gamemode.survival": "Supervivencia",
+  "option.default_gamemode.config.gamemode.hardcore": "Extremo",
+  "option.default_gamemode.config.gamemode.debug": "Espectador",
+  "option.default_gamemode.config.general": "General",
+  "option.default_gamemode.config.no": "No",
+  "option.default_gamemode.config.yes": "Sí"
+}
