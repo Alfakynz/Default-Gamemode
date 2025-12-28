@@ -6,7 +6,7 @@ This mod let you change the default world gamemode (survival, hardcore, creative
 [![quilt](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/quilt_64h.png)](https://quiltmc.org/)
 
 [![github](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/github_64h.png)](https://github.com/Alfakynz/Default-Gamemode)
-[![modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_64h.png)](https://modrinth.com/project/FfJwv52l)
+[![modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_64h.png)](https://modrinth.com/project/idPolUDF)
 [![curseforge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_64h.png)](https://www.curseforge.com/minecraft/mc-mods/default-gamemode)
 [![discord-plural](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_64h.png)](https://discord.gg/TcmUQHZ5U4)
 
@@ -24,7 +24,7 @@ Quilt  >= 0.17.3
 
 # ⬇️ Installation
 
-1. Download the mod from [Modrinth](https://modrinth.com/project/FfJwv52l) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/default-gamemode)
+1. Download the mod from [Modrinth](https://modrinth.com/project/idPolUDF) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/default-gamemode)
 2. Place it into your `mods` directory
 
 ## 🤝 Contributing
