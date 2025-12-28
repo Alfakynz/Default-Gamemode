@@ -1,9 +1,11 @@
 {
 	"required": true,
 	"package": "com.alfakynz.defaultgamemode.mixin",
+	"plugin": "com.alfakynz.defaultgamemode.mixin.DefaultGamemodeMixinPlugin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"GamemodeMixin"
+		"GamemodeMixin",
+		"compat.ModernWorldCreationGameTabMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

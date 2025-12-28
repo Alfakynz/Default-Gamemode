@@ -13,6 +13,7 @@ base {
 repositories {
 	maven { url "https://maven.shedaniel.me/" }
 	maven { url "https://maven.terraformersmc.com/" }
+	maven { url "https://api.modrinth.com/maven" }
 }
 
 dependencies {
@@ -24,6 +25,7 @@ dependencies {
 	modCompileOnly("me.shedaniel.cloth:cloth-config-fabric:${clothconfig_version}")
 	modRuntimeOnly("me.shedaniel.cloth:cloth-config-fabric:${clothconfig_version}")
 	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
+	modCompileOnly("maven.modrinth:modern-world-creation:${modernworldcreation_version}")
 }
 
 processResources {
