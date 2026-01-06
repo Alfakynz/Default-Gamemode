@@ -19,9 +19,9 @@ This mod let you change the default world gamemode (survival, hardcore, creative
 
 ## 🔄 Versions
 
-Minecraft  >= 1.20
-Fabric >= 0.16.4
-Quilt  >= 0.17.3
+- Minecraft  >= 1.20
+- Fabric >= 0.16.4
+- Quilt  >= 0.17.3
 
 # ⬇️ Installation
 
