@@ -31,10 +31,11 @@ dependencies {
 processResources {
 	def replaceProperties = new HashMap<String, String>()
 
-	project.properties.each { key, value ->
+	project.properties.each {key, value ->
 		if (value instanceof String) {
-			replaceProperties.put(key, value)
+			replaceProperties.put(key, (String) value)
 		}
+		return
 	}
 
 	inputs.properties replaceProperties
