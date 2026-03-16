@@ -6,6 +6,11 @@
   "option.default_gamemode.config.gamemode.survival": "Survival",
   "option.default_gamemode.config.gamemode.hardcore": "Hardcore",
   "option.default_gamemode.config.gamemode.debug": "Spectator",
+  "option.default_gamemode.config.difficulty": "Difficulty",
+  "option.default_gamemode.config.difficulty.peaceful": "Peaceful",
+  "option.default_gamemode.config.difficulty.easy": "Easy",
+  "option.default_gamemode.config.difficulty.normal": "Normal",
+  "option.default_gamemode.config.difficulty.hard": "Hard",
   "option.default_gamemode.config.general": "General",
   "option.default_gamemode.config.no": "No",
   "option.default_gamemode.config.yes": "Yes"

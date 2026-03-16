@@ -6,6 +6,11 @@
   "option.default_gamemode.config.gamemode.survival": "Supervivencia",
   "option.default_gamemode.config.gamemode.hardcore": "Extremo",
   "option.default_gamemode.config.gamemode.debug": "Espectador",
+  "option.default_gamemode.config.difficulty": "Dificultad",
+  "option.default_gamemode.config.difficulty.peaceful": "Pacífico",
+  "option.default_gamemode.config.difficulty.easy": "Fácil",
+  "option.default_gamemode.config.difficulty.normal": "Normal",
+  "option.default_gamemode.config.difficulty.hard": "Difícil",
   "option.default_gamemode.config.general": "General",
   "option.default_gamemode.config.no": "No",
   "option.default_gamemode.config.yes": "Sí"

@@ -4,7 +4,8 @@
 	"plugin": "com.alfakynz.defaultgamemode.mixin.DefaultGamemodeMixinPlugin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"GamemodeMixin",
+		"GameModeMixin",
+		"GameDifficultyMixin",
 		"compat.ModernWorldCreationGameTabMixin"
 	],
 	"injectors": {

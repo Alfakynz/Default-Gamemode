@@ -6,6 +6,7 @@ import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 
 import net.minecraft.client.gui.screens.worldselection.WorldCreationUiState.SelectedGameMode;
+import net.minecraft.world.Difficulty;
 
 public class ConfigScreen {
     public static Screen create(Screen parent) {
@@ -31,6 +32,22 @@ public class ConfigScreen {
                 )
                 .setDefaultValue(SelectedGameMode.CREATIVE)
                 .setSaveConsumer(newValue -> Config.GAMEMODE = newValue)
+                .build()
+        );
+
+        generalCategory.addEntry(entryBuilder
+                .startEnumSelector(
+                        Component.translatable("option.default_gamemode.config.difficulty"),
+                        Difficulty.class,
+                        Config.DIFFICULTY
+                )
+                .setEnumNameProvider(value ->
+                        Component.translatable(
+                                "option.default_gamemode.config.difficulty." + value.name().toLowerCase()
+                        )
+                )
+                .setDefaultValue(Difficulty.NORMAL)
+                .setSaveConsumer(newValue -> Config.DIFFICULTY = newValue)
                 .build()
         );
 

@@ -13,6 +13,7 @@ This mod let you change the default world gamemode (survival, hardcore, creative
 ## ✨ Features
 
 - Changes the default gamemode when creating a new world
+- Changes the default difficulty when creating a new world
 - Supports all gamemodes: Survival, Hardcore, Creative, and Spectator
 - Includes settings to configure which gamemode to set as default (with [ModMenu](https://modrinth.com/mod/mOgUt4GM) and [Cloth Config API](https://modrinth.com/mod/9s6osm5g))
 - Compatibility with [Modern World Creation](https://github.com/Keksuccino/ModernWorldCreation)
@@ -29,8 +30,6 @@ This mod let you change the default world gamemode (survival, hardcore, creative
 2. Place it into your `mods` directory
 
 ## 🤝 Contributing
-
-Default Gamemode is a work in progress, so all suggestions are welcome.
 
 If you'd like to contribute:
 

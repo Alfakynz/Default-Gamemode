@@ -11,12 +11,12 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(CreateWorldScreen.class)
-public abstract class GamemodeMixin {
+public abstract class GameModeMixin {
 
 	@Final
-    @Shadow
-    WorldCreationUiState uiState;
-
+	@Shadow
+	WorldCreationUiState uiState;
+	
 	@Inject(method = "init", at = @At("TAIL"))
 	private void setDefaultGamemodeCreative(CallbackInfo ci) {
 		this.uiState.setGameMode(
