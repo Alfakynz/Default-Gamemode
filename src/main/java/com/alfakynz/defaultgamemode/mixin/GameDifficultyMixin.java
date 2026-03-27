@@ -16,7 +16,7 @@ public abstract class GameDifficultyMixin {
 
     @Final
     @Shadow
-    WorldCreationUiState uiState;
+    private WorldCreationUiState uiState;
 
     @Inject(method = "init", at = @At("TAIL"))
     private void setDefaultGamemodeCreative(CallbackInfo ci) {
