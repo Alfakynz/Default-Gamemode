@@ -1,6 +1,6 @@
 # 🔄 Default Gamemode 🎮
 
-This mod let you change the default world gamemode (survival, hardcore, creative, spectator) when creating a new world. It won’t change the gamemode of an existing world!
+This mod lets you change the default world gamemode (survival, hardcore, creative, spectator) when creating a new world. It won’t change the gamemode of an existing world!
 
 [![fabric](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_64h.png)](https://fabricmc.net/)
 [![quilt](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/quilt_64h.png)](https://quiltmc.org/)
@@ -44,7 +44,7 @@ Nothing for now, but feel free to suggest any feature you want!
 
 ## 📦 Modpack
 
-Feel free to include Better Slots in modpacks.
+Feel free to include Default Gamemode in modpacks.
 
 ## 🌐 Looking for a server? Support me at the same time!
 
