@@ -24,6 +24,8 @@ This mod lets you change the default world gamemode (survival, hardcore, creativ
 - Fabric >= 0.16.4
 - Quilt  >= 0.17.3
 
+Want a NeoForge version? Check the [TakeruDavis'](https://modrinth.com/user/Q9CKppIw) [fork](https://modrinth.com/project/ECiVmNXX)
+
 # ⬇️ Installation
 
 1. Download the mod from [Modrinth](https://modrinth.com/project/idPolUDF) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/default-gamemode)
